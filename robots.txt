@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://emily-robinson-researcher.com/sitemap.xml

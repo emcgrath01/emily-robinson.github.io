@@ -353,10 +353,21 @@ footer.contact-block {
 
 .contact-bottom .wrap {
   display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  gap: 20px;
+  justify-content: center;
+  align-items: baseline;
+  gap: 10px;
   flex-wrap: wrap;
+}
+
+.contact-label {
+  font-family: 'Fraunces', serif;
+  font-size: 15px;
+  color: var(--dark);
+  opacity: 0.7;
+}
+
+.contact-bottom a.email-link.small {
+  font-size: 16px;
 }
 
 .contact-bottom a.email-link {
